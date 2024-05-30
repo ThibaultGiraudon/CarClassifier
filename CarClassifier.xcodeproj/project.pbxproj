@@ -14,8 +14,7 @@
 		11A9027B2C08A63300D7384E /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9027A2C08A63300D7384E /* ImageClassifier.swift */; };
 		11A9027D2C08B03400D7384E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9027C2C08B03400D7384E /* ImagePicker.swift */; };
 		11A9027F2C08B3C200D7384E /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9027E2C08B3C200D7384E /* Classifier.swift */; };
-		11A902812C08B8CE00D7384E /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 11A902802C08B8CE00D7384E /* MobileNetV2.mlmodel */; };
-		11A902892C08BAC900D7384E /* CarClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 11A902882C08BAC900D7384E /* CarClassifier.mlmodel */; };
+		11A9028D2C090B2600D7384E /* CarClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 11A9028C2C090B2600D7384E /* CarClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,7 @@
 		11A9027A2C08A63300D7384E /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
 		11A9027C2C08B03400D7384E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		11A9027E2C08B3C200D7384E /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
-		11A902802C08B8CE00D7384E /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
-		11A902882C08BAC900D7384E /* CarClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CarClassifier.mlmodel; path = ../../seefood/SeeFood/CarClassifier.mlmodel; sourceTree = "<group>"; };
+		11A9028C2C090B2600D7384E /* CarClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +65,7 @@
 				11A902682C089DD800D7384E /* ContentView.swift */,
 				11A9027C2C08B03400D7384E /* ImagePicker.swift */,
 				11A9026A2C089DD900D7384E /* Assets.xcassets */,
-				11A902802C08B8CE00D7384E /* MobileNetV2.mlmodel */,
-				11A902882C08BAC900D7384E /* CarClassifier.mlmodel */,
+				11A9028C2C090B2600D7384E /* CarClassifier.mlmodel */,
 				11A9026C2C089DD900D7384E /* Preview Content */,
 			);
 			path = CarClassifier;
@@ -152,8 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A902892C08BAC900D7384E /* CarClassifier.mlmodel in Sources */,
-				11A902812C08B8CE00D7384E /* MobileNetV2.mlmodel in Sources */,
+				11A9028D2C090B2600D7384E /* CarClassifier.mlmodel in Sources */,
 				11A9027B2C08A63300D7384E /* ImageClassifier.swift in Sources */,
 				11A9027D2C08B03400D7384E /* ImagePicker.swift in Sources */,
 				11A902692C089DD800D7384E /* ContentView.swift in Sources */,

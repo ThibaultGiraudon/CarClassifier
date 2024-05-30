@@ -23,6 +23,11 @@ struct ContentView: View {
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFit()
+                        .contextMenu {
+                            Button("Delete", systemImage: "trash", role: .destructive) {
+                                uiImage = nil
+                            }
+                        }
                 } else {
                     ZStack {
                         RoundedRectangle(cornerRadius: 25.0)
@@ -57,14 +62,15 @@ struct ContentView: View {
                 } label: {
                     Text("Submit")
                         .font(.largeTitle)
-                        .foregroundStyle(.primaryGreen)
+                        .foregroundStyle(uiImage == nil ? .gray : .primaryGreen)
                         .brightness(-0.2)
                         .padding(.horizontal)
                         .padding()
-                        .background(.primaryGreen)
+                        .background(uiImage == nil ? .gray : .primaryGreen)
                         .clipShape(.capsule)
                         .padding()
                 }
+                .disabled(uiImage == nil)
                 
                 Group {
                     if let imageClass = classifier.imageClass {
